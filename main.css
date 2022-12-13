@@ -29,6 +29,7 @@
     max-width: 1100px;
     margin: 0 auto;
 }
+/* NAVBAR */
 #navbar{
     color: #fff;
     display: flex;
@@ -50,6 +51,55 @@
     border-radius: 4px;
 
 }
+/* HOME */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+#home .name h2{
+    margin-bottom: 0.75rem;
+}
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+
+/* BUTTONS */
+.btn{
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+}
+.btn-primary{
+    background: #336ea2;
+}
+.btn-primary:hover{
+    color: #336ea2;
+    background:#fff;
+    border: 0.5px solid #336ea2;
+}
+.btn-dark{
+    background: #333;
+}
+.btn-dark:hover{
+    color: #333;
+    background:#fff;
+    border: 0.5px solid #333;
+}
+.btn-block{
+    width: 100%;
+}
+
 a{
     text-decoration: none;
     color: #fff;
