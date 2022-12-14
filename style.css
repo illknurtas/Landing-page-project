@@ -1,3 +1,9 @@
+/* CONTAINER */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
 /* TEXT */
 .text-center{
     text-align: center;
